@@ -27,6 +27,10 @@
       ]
     }
   ],
+  "web_accessible_resources": [
+    "./assets/fonts/ProductSansRegular.ttf",
+    "./css/styles.css"
+  ],
   "page_action": {
     "default_popup": "./popup/popup.html",
     "default_icon": {
