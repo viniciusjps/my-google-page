@@ -1,7 +1,10 @@
 let googleLogo = document.getElementsByTagName('img');
+googleLogo[1].currentSrc = 'https://cdn0.vox-cdn.com/thumbor/0l4Rv32qNB5YPN4s1mBDqH8EgNU=/800x0/filters:no_upscale()/cdn0.vox-cdn.com/uploads/chorus_asset/file/4019334/OGB-INSIDER-BLOGS-GoogleLogox2-Animated.0.gif';
 googleLogo[1].src = 'https://cdn0.vox-cdn.com/thumbor/0l4Rv32qNB5YPN4s1mBDqH8EgNU=/800x0/filters:no_upscale()/cdn0.vox-cdn.com/uploads/chorus_asset/file/4019334/OGB-INSIDER-BLOGS-GoogleLogox2-Animated.0.gif';
+googleLogo[1].srcset = 'https://cdn0.vox-cdn.com/thumbor/0l4Rv32qNB5YPN4s1mBDqH8EgNU=/800x0/filters:no_upscale()/cdn0.vox-cdn.com/uploads/chorus_asset/file/4019334/OGB-INSIDER-BLOGS-GoogleLogox2-Animated.0.gif';
 googleLogo[1].height = "200";
 googleLogo[1].width = "354";
+googleLogo[1].style.paddingTop = "50px";
 
 let divLogo = document.getElementById('hplogo');
 divLogo.style.height = "200px";
